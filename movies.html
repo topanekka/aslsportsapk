@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Cards with Live Button</title>
+    <style>
+        .card {
+            width: 43%;
+            margin: 10px;
+            border: 0px solid black;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: black;
+            position: relative;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            box-shadow: 0 14px 15px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 1.9);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            transition: opacity 0.3s ease;
+        }
+
+        .card:hover img {
+            opacity: 0.8;
+        }
+
+        .card-content {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .card-title {
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: white;
+        }
+
+        .card-description {
+            font-size: 0.7rem;
+            color: white;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .blink-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            background-color: red;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none;
+            animation: blink 1s infinite;
+        }
+
+        .blink-button:hover {
+            background-color: darkred;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 48%;
+            }
+        }
+/* Hide underline in links */
+        .card a {
+            text-decoration: none;
+        }
+        @media (max-width: 480px) {
+            .card {
+                width: 42%;
+            }
+        }
+    </style>
+</head>
+<body>
+	
+	
+    <div class="card-container">
+    	
+    
+    
+    
+        
+    <!---------       <a href="intent:#Intent;package=com.genuine.leone;type=video/mp4;end;">
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/w400/we4moX9pbo3DAG8VxCOcBxUsM0V.jpg" alt="Card Image 3">
+                <div class="card-content">
+                    <div class="card-title">Kick (2014)</div>
+                       </div> </a>  </div><!--------->       
+                       	
+<!---------       <a href="intent:#Intent;package=com.genuine.leone;type=video/mp4;end;">
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/w400/we4moX9pbo3DAG8VxCOcBxUsM0V.jpg" alt="Card Image 3">
+                <div class="card-content">
+                    <div class="card-title">Kick (2014)</div>
+                       </div> </a>  </div><!--------->       
+ <!--------->  <a href="intent:https://pixeldrain.net/api/file/2FugwSHj?download#Intent;package=com.genuine.leone;type=video/mp4;end;">
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/w400/lsuUGtUzrzEnlIUjVRSqFNUMZEz.jpg" alt="Card Image 3">
+                <div class="card-content">
+                    <div class="card-title">Maharaj (2024)</div>
+                       </div> </a> </div>
+
+<!--------->    <a href="intent:https://pixeldrain.net/api/file/yPSewkhr?download#Intent;package=com.genuine.leone;type=video/mp4;end;">
+            <div class="card">
+                <img src="https://image.tmdb.org/t/p/w400/we4moX9pbo3DAG8VxCOcBxUsM0V.jpg" alt="Card Image 3">
+                <div class="card-content">
+                    <div class="card-title">Kick (2014)</div>
+                       </div> </a>  </div><!--------->       
+        
+        
+    </div>
+</body>
+</html>

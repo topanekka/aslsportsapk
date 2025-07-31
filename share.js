@@ -1,4 +1,4 @@
-<script>
+
   document.write(`
     <!DOCTYPE html>
     <html lang="en">
@@ -56,4 +56,4 @@
     </body>
     </html>
   `);
-</script>
+

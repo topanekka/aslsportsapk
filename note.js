@@ -5,9 +5,9 @@ document.write(`<!DOCTYPE html>
   <title>Share & Support</title>
   <style>
     body {
-      background: #f2f2f2;
+      
       font-family: 'Segoe UI', sans-serif;
-      padding: 20px;
+      padding: 4px;
     }
     .note {
       max-width: 550px;
@@ -21,11 +21,11 @@ document.write(`<!DOCTYPE html>
     .note h2 {
       margin-top: 0;
       color: #00b0ff;
-      font-size: 26px;
+      font-size:20px;
       text-align: center;
     }
     .note p {
-      font-size: 17px;
+      font-size: 14px;
       color: #444;
       line-height: 1.6;
     }
@@ -39,7 +39,7 @@ document.write(`<!DOCTYPE html>
       padding: 10px 15px;
       margin-top: 15px;
       border-radius: 8px;
-      font-size: 15px;
+      font-size: 14px;
     }
     .footer {
       text-align: center;
@@ -52,7 +52,7 @@ document.write(`<!DOCTYPE html>
 <body>
 
   <div class="note">
-    <h2>📢 Share Every Match, Every Day!</h2>
+    <h2>📢 NOTE 📢 </h2>
 
     <p>
       Your <span class="highlight">1 share</span> can motivate us, grow our community, and bring more exciting updates your way.

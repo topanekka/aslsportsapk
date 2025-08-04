@@ -14,11 +14,11 @@
       <meta property="og:url" content="https://asl-sports-apk.netlify.app/">
       <meta property="og:type" content="website">
 
-      <!-- Font Awesome for Share Icon -->
+      <!-- Font Awesome for WhatsApp Icon -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
       <style>
-        .universal-share {
+        .whatsapp-share {
           display: inline-flex;
           align-items: center;
           background: linear-gradient(135deg, #25D366, #128C7E);
@@ -31,15 +31,14 @@
           text-decoration: none;
           transition: all 0.3s ease;
           box-shadow: 0 4px 10px rgba(18, 140, 126, 0.4);
-          cursor: pointer;
         }
 
-        .universal-share i {
+        .whatsapp-share i {
           font-size: 22px;
           margin-right: 12px;
         }
 
-        .universal-share:hover {
+        .whatsapp-share:hover {
           transform: scale(1.05);
           box-shadow: 0 6px 14px rgba(18, 140, 126, 0.5);
           background: linear-gradient(135deg, #128C7E, #075E54);
@@ -49,28 +48,11 @@
 
     <body>
       <center>
-        <button class="universal-share" onclick="shareApp()">
-          <i class="fas fa-share-alt"></i> Share This App
-        </button>
+        <a href="https://api.whatsapp.com/send?text=Watch 🇮🇳IND vs ENG🏴󠁧󠁢󠁥󠁮󠁧󠁿 Test match Free ! Click Here👇 https://asl-sports-apk.netlify.app/ "
+           class="whatsapp-share" target="_blank">
+          <i class="fab fa-whatsapp"></i> Share on WhatsApp Status
+        </a>
       </center>
-
-      <script>
-        function shareApp() {
-          const shareData = {
-            title: 'ASL Sports App',
-            text: 'Watch live India cricket matches, get team updates and more – Download ASL Sports App now!',
-            url: 'https://asl-sports-apk.netlify.app/'
-          };
-
-          if (navigator.share) {
-            navigator.share(shareData)
-              .then(() => console.log('App shared successfully!'))
-              .catch((err) => console.error('Error sharing:', err));
-          } else {
-            alert("Sharing not supported on this browser. Please copy the link manually.");
-          }
-        }
-      </script>
     </body>
     </html>
   `);

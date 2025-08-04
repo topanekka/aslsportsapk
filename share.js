@@ -48,7 +48,7 @@
 
     <body>
       <center>
-        <a href="https://api.whatsapp.com/send?text=Watch 🇮🇳IND vs ENG🏴󠁧󠁢󠁥󠁮󠁧󠁿 Test match Free ! Click Here👇 https://asl-sports-apk.netlify.app/ "
+        <a href="https://wa.me/?text=Watch 🇮🇳IND vs ENG🏴󠁧󠁢󠁥󠁮󠁧󠁿 Test match Free ! Click Here👇 https://asl-sports-apk.netlify.app/ "
            class="whatsapp-share" target="_blank">
           <i class="fab fa-whatsapp"></i> Share on WhatsApp Status
         </a>

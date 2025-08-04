@@ -1,6 +1,5 @@
 
   document.write(`
-    
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -51,8 +50,7 @@
     <body>
       <center>
         <button class="universal-share" onclick="shareApp()">
-          <i class="fas fa-share-alt"></i> Share With Your Friends
-          
+          <i class="fas fa-share-alt"></i> Share This App
         </button>
       </center>
 
@@ -60,7 +58,7 @@
         function shareApp() {
           const shareData = {
             title: 'ASL Sports App',
-            text: 'Watch 🇮🇳 IND vs ENG 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Live cricket match!',
+            text: 'Watch live India cricket matches, get team updates and more – Download ASL Sports App now!',
             url: 'https://asl-sports-apk.netlify.app/'
           };
 
@@ -75,6 +73,4 @@
       </script>
     </body>
     </html>
-  
   `);
-

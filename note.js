@@ -21,11 +21,11 @@ document.write(`<!DOCTYPE html>
     .note h2 {
       margin-top: 0;
       color: #00b0ff;
-      font-size:20px;
+      font-size:18px;
       text-align: center;
     }
     .note p {
-      font-size: 14px;
+      font-size: 11px;
       color: #444;
       line-height: 1.6;
     }
@@ -39,11 +39,12 @@ document.write(`<!DOCTYPE html>
       padding: 10px 15px;
       margin-top: 15px;
       border-radius: 8px;
-      font-size: 14px;
+      font-size: 12px;
     }
     .footer {
       text-align: center;
       margin-top: 20px;
+      font-size: 12px;
       font-style: italic;
       color: #777;
     }
@@ -55,13 +56,10 @@ document.write(`<!DOCTYPE html>
     <h2>📢 NOTE 📢 </h2>
 
     <p>
-      Your <span class="highlight">1 share</span> can motivate us, grow our community, and bring more exciting updates your way.
+      Your <span class="highlight">1 share</span> can motivate us, grow our community,
     </p>
 
-    <p>
-      Don't forget to <span class="highlight">share every match daily</span> on your status — WhatsApp, Instagram, Facebook — wherever you can!
-    </p>
-
+    
     <div class="important">
       Sharing is the simplest way to support us. Be a part of our journey — every share counts! 💪
     </div>
